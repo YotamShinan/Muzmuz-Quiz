@@ -1,0 +1,77 @@
+body {
+    /* background-color: gold; */
+    background-image: url('lettuce.jpg');
+    text-align: center;
+    FONT-FAMILY: monospace;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    color: white;
+}
+.container {
+    border-radius: 5%;
+    margin: 0 auto;
+    background-color: gold;
+    height: 600px;
+    width: 900px;
+}
+
+.pic {
+    /* background-color: white; */
+    margin: 0 auto;
+    height: 500px;
+    width: 700px;
+}
+
+.button {
+    background-color: pink;
+    border-radius: 5%;
+    height: 80px;
+    width: 400px;
+    font-size: xx-large;
+    font-family: fantasy;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.button:hover {
+    background-color: yellow;
+    opacity: 0.8;
+}
+
+.button-start:hover {
+    background-color: green;
+}
+
+.button-answer0 {
+    /* display: none; */
+    color: black
+}
+
+.button-answer1 {
+    /* display: none; */
+    color: black
+}
+
+.button-start {
+    /* display: none; */
+    background-color: #6ae249;
+    color: white;
+    position: absolute;
+    margin: auto -180px;
+    margin-top: 215px
+}
+
+.msg {
+    /* display: none; */
+    margin: 0 auto;
+    margin-top: 8px;
+    height: 80px;
+    width: 750px;
+    border-radius: 3%;
+    background-color: #da6c57;
+    font-size: xxx-large;
+    font-family: fantasy;
+}
